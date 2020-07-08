@@ -18,13 +18,14 @@ const Layout: FunctionComponent = ({ children }) => {
                     defaultSelectedKeys={['1']}
                     style={{ lineHeight: '64px' }}
                 >
-                    <Menu.Item key="1">
+                    {/*
+                    Menu.Item key="1">
                         <Link style={{ textDecoration: "none" }} to="/planos">
                             <FormOutlined />
                             Planos
                             </Link>
                     </Menu.Item>
-                    {/* <Menu.Item key="3">
+                    <Menu.Item key="3">
                         <Link style={{ textDecoration: "none" }} to="/planos">
                             <NotificationFilled />
                             Postagens
@@ -57,7 +58,8 @@ const Layout: FunctionComponent = ({ children }) => {
                                 <span >Logout</span>
                             </Link>
                         </Menu.Item>
-                    </SubMenu> */}
+                    </SubMenu> 
+                    */}
                 </Menu>
             </Header>
             <div style={{ padding: '0 50px', marginTop: 64, background: "#f0f2f5" }}>
