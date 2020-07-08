@@ -19,31 +19,35 @@ const Landing: FunctionComponent = ({ }) => {
         <Header />
         <main>
           <br />
-          <Carousel>
-            <div style={{ height: "250px" }}>
-              <img src={img4} alt="img1" />
-            </div>
-            <div style={{ height: "500px" }}>
-              <img src={img3} alt="img3" />
-            </div>
-            <div style={{ height: "500px" }}>
-              <img src={img1} alt="img4" />
-            </div>
-          </Carousel>
-          <h1 style={{ textAlign: "center", fontWeight: "bold" }}>
-            Depoimentos
-          </h1>
-          <br />
-          <Grid container spacing={4}>
-            <FeaturedPost />
-          </Grid>
-          <br />
-          <h1 style={{ textAlign: "center", fontWeight: "bold" }}>
-            Nossa história
-          </h1>
-          <br />
-          <AboutUs />
-          <br />
+          <div style={{ marginBottom: 110 }}>
+            <Carousel>
+              <div style={{ height: "250px" }}>
+                <img src={img4} alt="img1" />
+              </div>
+              <div style={{ height: "500px" }}>
+                <img src={img3} alt="img3" />
+              </div>
+              <div style={{ height: "500px" }}>
+                <img src={img1} alt="img4" />
+              </div>
+            </Carousel>
+          </div>
+          <div style={{ marginBottom: 110 }}>
+            <h1 style={{ textAlign: "center", fontWeight: "bold" }}>
+              Depoimentos
+            </h1>
+            <br />
+            <Grid container spacing={4}>
+              <FeaturedPost />
+            </Grid>
+          </div>
+          <div style={{ marginBottom: 90 }}>
+            <h1 style={{ textAlign: "center", fontWeight: "bold" }}>
+              Nossa história
+            </h1>
+            <br />
+            <AboutUs />
+          </div>
           <Footer />
         </main>
       </Container>

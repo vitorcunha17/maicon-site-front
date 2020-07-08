@@ -20,6 +20,10 @@
     "jsx": "react"
   },
   "include": [
-    "src"
+    "**/*.spec.ts",
+    "**/*.d.ts",
+    "../node_modules/api-ai-javascript/index.ts",
+    "./main.ts",
+    "./polyfills.ts"
   ]
 }
