@@ -1,0 +1,76 @@
+@font-face {
+  font-family: RedHatDisplay;
+  src: url("./fonts/RedHatDisplay-Regular.ttf");
+}
+body {
+  font-family: RedHatDisplay !important;
+}
+
+.ant-pagination {
+  display: none !important;
+}
+
+.carousel .slide {
+  height: 460px;
+  background: #fafafa !important;
+}
+
+@media (max-width: 890px) {
+  .carousel .slide {
+    height: 328px;
+  }
+}
+
+@media (max-width: 890px) {
+  .carousel .slide {
+    height: 328px;
+  }
+}
+
+@media (max-width: 740px) {
+  .carousel .slide {
+    height: 272px;
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel .slide {
+    height: 219px;
+  }
+}
+
+@media (max-width: 450px) {
+  .carousel .slide {
+    height: 169px;
+  }
+}
+
+.carousel .thumbs {
+  text-align: center;
+}
+
+.logo {
+  width: 180px;
+}
+
+@media (max-width: 700px) {
+  .logo {
+    width: 140px;
+  }
+}
+
+@media (max-width: 420px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+@media (max-width: 355px) {
+  .logo {
+    width: 80px;
+  }
+}
+
+.makeStyles-toolbar-9 {
+  border-bottom: none !important;
+}
